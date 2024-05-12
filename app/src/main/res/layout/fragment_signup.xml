@@ -33,13 +33,4 @@
         android:textColor="#FFFFFF"
         android:layout_marginBottom="16dp"/>
 
-    <TextView
-        android:id="@+id/textViewLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Already have an account? Log in"
-        android:layout_below="@id/buttonSignUp"
-        android:layout_centerHorizontal="true"
-        android:textColor="@android:color/darker_gray"/>
-
 </RelativeLayout>

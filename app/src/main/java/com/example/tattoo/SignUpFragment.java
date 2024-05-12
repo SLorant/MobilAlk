@@ -42,10 +42,6 @@ public class SignUpFragment extends Fragment {
             // Perform sign-up using Firebase Authentication
             signUpUser(email, password);
         });
-        binding.textViewLogin.setOnClickListener(v -> {
-            NavHostFragment.findNavController(SignUpFragment.this)
-                    .navigate(R.id.action_LoginFragment_to_signUpFragment);
-        });
     }
 
     private void signUpUser(String email, String password) {
