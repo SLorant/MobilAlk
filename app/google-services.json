@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1080416444277",
+    "project_id": "tattoo-sa",
+    "storage_bucket": "tattoo-sa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080416444277:android:aca6019de5a03255d77d3c",
+        "android_client_info": {
+          "package_name": "com.example.tattoo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcpbNOLDwkE3J958jZHoC2mb5E0JAR2hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

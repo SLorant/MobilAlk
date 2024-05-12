@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".AppointmentActivity">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:hint="Your Name"
+        android:padding="10dp"
+    android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_design"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:hint="Design"
+        android:padding="10dp"
+    android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_pick_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Date"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Appointment"/>
+
+</LinearLayout>
